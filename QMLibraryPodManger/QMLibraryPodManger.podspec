@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1213791064@qq.com/QMLibraryPodManger'
+  s.homepage         = 'https://github.com/Costword/QMLibraryPodManger.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1213791064@qq.com' => 'wangminghui@babyfs.cn' }
