@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   #   'QMLibraryPodManger' => ['QMLibraryPodManger/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # 依赖的其他第三方库，如需依赖多个三方库 换行依次填写即可 例如 s.dependency 'AFNetworking', '~> 2.3' 换行 s.dependency ' Masonry'
   #s.dependency 'AFNetworking', '~> 2.3'
