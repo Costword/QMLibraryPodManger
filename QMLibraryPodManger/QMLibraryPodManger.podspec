@@ -40,13 +40,13 @@ TODO: Add long description of the pod here.
   # 资源文件 例如 QMLibraryPodManger/* 表示该目录下的所有文件，但是不包括子目录 QMLibraryPodManger/*.{h,m} 代表匹配该目录下的所有以.h .m结尾的文件
   # QMLibraryPodManger/**/* 表示匹配该目录下所有文件 包括子目录 如果需要加载某个文件夹下的子目录 一定要逐级加载 
 
-  s.source_files = 'QMLibraryPodManger','QMLibraryPodManger/Classes/*,{h,m}'
+  s.source_files = "QMLibraryPodManger", "QMLibraryPodManger/Classes/*.{h,m}"
   
   # s.resource_bundles = {
   #   'QMLibraryPodManger' => ['QMLibraryPodManger/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  #s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # 依赖的其他第三方库，如需依赖多个三方库 换行依次填写即可 例如 s.dependency 'AFNetworking', '~> 2.3' 换行 s.dependency ' Masonry'
   #s.dependency 'AFNetworking', '~> 2.3'
