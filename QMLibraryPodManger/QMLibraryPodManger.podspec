@@ -27,7 +27,9 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Costword/QMLibraryPodManger.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   # 开源协议，一般使用‘MIT’
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'MIT'
+
+  #s.license          = { :type => 'MIT', :file => 'LICENSE' }
   # 创建者
   s.author           = { '1213791064@qq.com' => 'wangminghui@babyfs.cn' }
   # 仓库地址 与 tag tag实际就是去的上面的version
@@ -46,7 +48,8 @@ TODO: Add long description of the pod here.
   # }
 
   #s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
+  s.requires_arc = true
   # 依赖的其他第三方库，如需依赖多个三方库 换行依次填写即可 例如 s.dependency 'AFNetworking', '~> 2.3' 换行 s.dependency ' Masonry'
   #s.dependency 'AFNetworking', '~> 2.3'
 end
