@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QMLibraryPodManger (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QMLibraryPodManger (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  QMLibraryPodManger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QMLibraryPodManger: 09115b361f5ccb57e84616145ace9020c9d9f416
+
+PODFILE CHECKSUM: 4598addc43cec9e35254c2fce9d4a4c94ccc470c
+
+COCOAPODS: 1.11.2
