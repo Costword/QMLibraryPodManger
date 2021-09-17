@@ -24,7 +24,8 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC QMLibraryPodManger
+  spec.description  = <<-DESC 
+                    A longer description of QMLibraryPodManger in Markdown format.
                    DESC
 
   spec.homepage     = "https://github.com/Costword/QMLibraryPodManger.git"
