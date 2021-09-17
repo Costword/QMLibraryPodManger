@@ -1,6 +1,0 @@
-framework module Pods_QMLibraryPodManger_Example {
-  umbrella header "Pods-QMLibraryPodManger_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

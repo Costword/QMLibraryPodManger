@@ -1,6 +1,0 @@
-framework module QMLibraryPodManger {
-  umbrella header "QMLibraryPodManger-umbrella.h"
-
-  export *
-  module * { export * }
-}
