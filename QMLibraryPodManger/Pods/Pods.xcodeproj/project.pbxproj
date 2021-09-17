@@ -12,8 +12,6 @@
 		07C05475903EBF168DC8DBC9BB51F6B3 /* Pods-QMLibraryPodManger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF634C997EE4C531F0EF0C725928EA7 /* Pods-QMLibraryPodManger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15608EB45C21DEF15F1F09E459B0C535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2749DDB726F34144001E4B0B /* QMBookManger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2749DDB526F34144001E4B0B /* QMBookManger.h */; };
-		2749DDB826F34144001E4B0B /* QMBookManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2749DDB626F34144001E4B0B /* QMBookManger.m */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
@@ -75,8 +73,6 @@
 		1EC35D01B849CE597A5AC8A1E361F7D5 /* Pods-QMLibraryPodManger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QMLibraryPodManger_Example-frameworks.sh"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		2416F582B4A6FD78E574EC1A956A11F1 /* Pods-QMLibraryPodManger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QMLibraryPodManger_Tests-Info.plist"; sourceTree = "<group>"; };
-		2749DDB526F34144001E4B0B /* QMBookManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMBookManger.h; path = QMLibraryPodManger/Classes/QMBookManger.h; sourceTree = "<group>"; };
-		2749DDB626F34144001E4B0B /* QMBookManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMBookManger.m; path = QMLibraryPodManger/Classes/QMBookManger.m; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		28AEF43ECA7057C37DF3ACEBCA081DC1 /* QMLibraryPodManger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMLibraryPodManger-umbrella.h"; sourceTree = "<group>"; };
@@ -308,8 +304,6 @@
 		E1B0834A0203AD99555DEDBCEB6E8B6E /* QMLibraryPodManger */ = {
 			isa = PBXGroup;
 			children = (
-				2749DDB526F34144001E4B0B /* QMBookManger.h */,
-				2749DDB626F34144001E4B0B /* QMBookManger.m */,
 				28A8CECFA8FE854B9FF4FFB1BD25435A /* Pod */,
 				E8063036FDD2117A865F9D3512424375 /* Support Files */,
 			);
@@ -376,7 +370,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B845B39BCA2589168D39017568DF3639 /* QMLibraryPodManger-umbrella.h in Headers */,
-				2749DDB726F34144001E4B0B /* QMBookManger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +556,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2749DDB826F34144001E4B0B /* QMBookManger.m in Sources */,
 				0311170A7D40C05686BADFF38A22F0C7 /* QMLibraryPodManger-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
