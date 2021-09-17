@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name             = 'QMLibraryPodManger'
   # 版本号
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   # 描述
   s.summary          = '启蒙绘本接口'
 
@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   # 资源文件 例如 QMLibraryPodManger/* 表示该目录下的所有文件，但是不包括子目录 QMLibraryPodManger/*.{h,m} 代表匹配该目录下的所有以.h .m结尾的文件
   # QMLibraryPodManger/**/* 表示匹配该目录下所有文件 包括子目录
 
-  s.source_files = 'QMLibraryPodManger/Classes/QMBookManger.h'
+  s.source_files = 'QMLibraryPodManger/**/*'
   
   # s.resource_bundles = {
   #   'QMLibraryPodManger' => ['QMLibraryPodManger/Assets/*.png']
