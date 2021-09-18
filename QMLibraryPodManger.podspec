@@ -124,6 +124,8 @@ Pod::Spec.new do |spec|
   #
   # 引用的framework 如果有多个使用frameworks 中间使用,隔开
   spec.framework  = "UIKit" 
+  #模拟器编译时不产生二进制文件
+  spec.pod_target_xcconfig = {'VALID_ARCHS[sdk=iphonesimulator*]' => ''}
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
