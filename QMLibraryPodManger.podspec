@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   # 项目名称
   spec.name         = "QMLibraryPodManger"
   # 版本号
-  spec.version      = "0.4.0"
+  spec.version      = "0.5.0"
   # 项目描述
   spec.summary      = "启蒙绘本接口"
 
